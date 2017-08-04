@@ -1,0 +1,54 @@
+@media screen and (min-width:1170px) {
+    #zdjecie1 {
+        height: 100vh;
+    }
+    #header {
+        top: 50%;
+        text-align: left;
+        color: white;
+    }
+    #header1 {
+        top: 55%;
+        text-align: left;
+        color: white;
+    }
+}
+
+@media screen and (max-width:1170px) {
+    #zdjecie2 {
+        height: 70vh;
+    }
+    #header {
+        top: 10%;
+        text-align: right;
+        color: white;
+        margin-left: -170px;
+    }
+    #header1 {
+        top: 15%;
+        text-align: right;
+        color: white;
+        margin-left: -20px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    #zdjecie1 {
+        height: 50vh;
+    }
+    #zdjecie2 {
+        display: none;
+    }
+    #header {
+        top: 50%;
+        text-align: center;
+        color: black;
+        margin-left: 0;
+    }
+    #header1 {
+        top: 55%;
+        text-align: center;
+        color: black;
+        margin-left: 0;
+    }
+}

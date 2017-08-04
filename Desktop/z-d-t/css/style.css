@@ -1,0 +1,28 @@
+#body {
+    margin: 0;
+}
+#zdjecie1 {
+    background: url('../obrazy/man-1.jpg');
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    text-align: center;
+}
+#zdjecie2 {
+    background: url('../obrazy/man-2.jpg');
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    text-align: center;
+}
+h1,
+h2 {
+    font-family: Verdana, Geneva, sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    color: white;
+}
+h1 {
+    font-size: 20px;
+}
